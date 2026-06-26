@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/taka1156/cms-cli/master/cmsc.schema.json",
+  "articleDir": "./articles",
+  "imageDir": "./images",
+  "outputDir": "./dist",
+  "categories": [
+    "tech",
+    "idea"
+  ],
+  "tags": [
+    "javascript",
+    "typescript",
+    "go",
+    "github"
+  ],
+  "r2": {
+    "bucketName": "cms",
+    "baseUrl": "http://r2mock:9000/cms"
+  }
+}

@@ -1,0 +1,12 @@
+# project
+.DS_Store
+.devcontainer/r2mock
+contents/output/*
+**/output/*
+contents/dist/*
+**/dist/*
+**/.caches.json
+
+# secrets
+**/.env
+**/.env.prod
