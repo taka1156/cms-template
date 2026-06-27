@@ -20,7 +20,7 @@ apk add --no-cache \
   musl-locales \
   musl-locales-lang
 
-  yes | bash <(curl -fsSL https://raw.githubusercontent.com/taka1156/cms-cli/master/scripts/install.sh)
+  yes | bash <(curl -fsSL https://raw.githubusercontent.com/taka1156/brite/master/scripts/install.sh)
 EOF
 
 RUN git lfs install

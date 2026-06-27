@@ -5,7 +5,7 @@
 
 2. `cp .env.example .env`
 
-3. Please go to the following link and create a bucket named “cms.”
+3. Please go to the following link and create a bucket named “cms”.
 
 http://localhost:9001/rustfs/console/browser/
 

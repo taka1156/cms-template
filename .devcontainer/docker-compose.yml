@@ -1,5 +1,5 @@
 services:
-    cms-sandbox:
+    brite-sandbox:
       build: .
       tty: true
       volumes:

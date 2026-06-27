@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/taka1156/cms-cli/master/cmsc.schema.json",
+  "$schema": "https://raw.githubusercontent.com/taka1156/brite/master/brite.schema.json",
   "articleDir": "./articles",
   "imageDir": "./images",
   "outputDir": "./dist",
