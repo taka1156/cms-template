@@ -2,7 +2,7 @@
 
 [English version](./README.md)
 
-## How to use
+## 使い方
 1. `cd contents`
 
 2. `cp .env.example .env`
@@ -40,7 +40,7 @@ export type ArticleElement = {
 
 </details>
 
-## Commands
+## コマンドリスト
 
 | Command | Description |
 |---|---|
