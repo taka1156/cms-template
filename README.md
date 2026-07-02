@@ -1,13 +1,44 @@
 # brite-template
 
+[日本語はこちら](./README.ja.md)
+
 ## How to use
 1. `cd contents`
 
 2. `cp .env.example .env`
 
-3. Please go to the following link and create a bucket named “cms”.
+3. Please go to the following link and create a bucket named "cms".
 
 http://localhost:9001/rustfs/console/browser/
+
+If you want to integrate with a frontend, try using `brite.ts`.
+
+<details>
+<summary>Types</summary>
+
+```typescript
+export type ArticleSummary = {
+    slug:       string;
+    title:      string;
+    thumbnail:  string;
+    category:   string;
+    tags:       string[];
+    created_at: string;
+    updated_at: string;
+}
+
+// common type for tag and category classification
+export type ArticleClassified ={
+    [key: string]: ArticleSummary[];
+}
+
+export type ArticleElement = {
+    summary: ArticleSummary;
+    content: string;
+}
+```
+
+</details>
 
 ## Commands
 
