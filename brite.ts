@@ -1,19 +1,22 @@
-export type ArticleSummary = {
-    slug:       string;
-    title:      string;
-    thumbnail:  string;
-    category:   string;
-    tags:       string[];
-    created_at: string;
-    updated_at: string;
-}
+type ArticleSummary = {
+  slug: string;
+  title: string;
+  thumbnail: string;
+  description?: string;
+  category: ArticleClassified;
+  tags: ArticleClassified[];
+  created_at: string;
+  updated_at: string;
+};
 
 // common type for tag and category classification
-export type ArticleClassified ={
-    [key: string]: ArticleSummary[];
-}
+type ArticleClassified = {
+  name: string;
+  image: string;
+  posts: ArticleSummary[];
+};
 
-export type ArticleElement = {
-    summary: ArticleSummary;
-    content: string;
-}
+type ArticleElement = {
+  summary: ArticleSummary;
+  content: string;
+};
